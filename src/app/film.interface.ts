@@ -16,4 +16,5 @@ export interface Film {
   title: string;
   url: string;
   vehicles: string[];
+  price: string; 
 }

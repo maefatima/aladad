@@ -1,0 +1,23 @@
+.order-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+  }
+  
+  .order-page h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .order-page p {
+    font-size: 1.5em;
+    color: black;
+  }
+  

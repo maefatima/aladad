@@ -1,0 +1,113 @@
+.about-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  background-image: url("../../public/imagee.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 40px;
+}
+
+.about-form {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.film-movie-banner {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.about-form h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.film-content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.film-image {
+  width: 96%;
+  height: 65%;
+  border-radius: 10px;
+}
+
+.film-price {
+  font-size: 2.0em;
+  color: #333;
+  margin-top: 10px;
+}
+
+
+.film-details {
+  width: 60%;
+  text-align: left;
+
+  h2, h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.5em;
+    color: black;
+    text-align: justify;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 20px;
+}
+
+.go-back {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 12px;
+  transition: color 0.3s;
+
+  &:hover {
+    color: darkblue;
+  }
+}
+
+.add-cart {
+  background-color: #043AAA;
+  border: none;
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 20px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 12px; 
+  transition: background-color 0.3s; 
+  width: 100%;
+  height: 40px;
+}
+
+.add-cart:hover {
+  background-color: #75B4E2; 
+}
